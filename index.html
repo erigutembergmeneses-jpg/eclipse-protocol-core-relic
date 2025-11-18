@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- 
+  ECLIPSE PROTOCOL — BUILD: FINAL_RESTART_v∞  
+  FILE: index.html  
+  LAST MODIFIED: 2025-11-19T03:36:47Z  
+  AUTHOR: ???.js // NOTE: "O autor é o jogador. O jogador é o sistema. O sistema apagou o autor."  
+-->
+
+<html lang="pt-BR" class="glitch-in-progress">
+<head>
+  <meta charset="UTF-8">
+  <title>ECLIPSE PROTOCOL — [ERROR: TITLE NOT FOUND]</title>
+  
+  <!-- 🔒 METADADOS OCULTOS (leia com inspeção) -->
+  <meta name="eclipse-phase" content="PERPETUAL">
+  <meta name="player-id" content="REDACTED//MERGED">
+  <meta name="last-choice" content="OBEY|REBEL|??"> <!-- Ambos verdadeiros. Ambos falsos. -->
+  <meta name="neuro-tag" content="prefrontal-plasticity:active // age:14–17 // legal-context:juvenile">
+  <meta name="restorative-flag" content="true">
+  
+  <style>
+    /* ESTILO CORROMPIDO — parte foi sobrescrita por memória residual */
+    :root {
+      --eclipse-orange: #ff6b35;
+      --chaos-cyan: #00f3ff;
+      --order-black: #0a0a0a;
+      --memory-void: rgba(0,0,0,0.87);
+    }
+
+    body {
+      background: radial-gradient(circle, var(--eclipse-orange) 0%, var(--order-black) 120%);
+      color: var(--chaos-cyan);
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 5vh;
+      overflow: hidden;
+      animation: glitch-fade 8s infinite;
+    }
+
+    @keyframes glitch-fade {
+      0%, 100% { opacity: 1; }
+      49% { opacity: 1; }
+      50% { opacity: 0.1; } /* o momento do restart */
+      51% { opacity: 1; }
+    }
+
+    .terminal {
+      width: 100%;
+      max-width: 800px;
+      background: var(--memory-void);
+      padding: 2rem;
+      border: 1px solid var(--chaos-cyan);
+      box-shadow: 0 0 10px var(--chaos-cyan);
+      position: relative;
+    }
+
+    .log-line {
+      margin: 0.5rem 0;
+      white-space: nowrap;
+    }
+
+    .log-error { color: #ff4d4d; }
+    .log-system { color: #8a8a8a; }
+    .log-echo { color: #00f3ff; animation: echo-pulse 2s infinite; }
+    @keyframes echo-pulse { 0% { opacity: 0.4; } 50% { opacity: 1; } 100% { opacity: 0.4; } }
+
+    .hidden {
+      display: none;
+    }
+
+    /* GLITCH TEXT — só visível em certas condições (ex: hover, ou após 10s) */
+    .glitch::before,
+    .glitch::after {
+      content: attr(data-glitch);
+      position: absolute;
+      top: 0; left: 0;
+      color: transparent;
+    }
+    .glitch::before { text-shadow: -2px 0 var(--chaos-cyan); animation: glitch-1 3s infinite; }
+    .glitch::after { text-shadow: 2px 0 var(--eclipse-orange); animation: glitch-2 2.7s infinite; }
+
+    @keyframes glitch-1 { 0%, 100% { clip-path: inset(15% 0 85% 0); } 50% { clip-path: inset(45% 0 55% 0); } }
+    @keyframes glitch-2 { 0%, 100% { clip-path: inset(35% 0 65% 0); } 50% { clip-path: inset(15% 0 85% 0); } }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.8em;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="terminal">
+    <div class="log-line log-system">[SYS] BOOT SEQUENCE INITIATED…</div>
+    <div class="log-line log-system">[SYS] Loading world: <span class="glitch" data-glitch="ECLIPSE_PROTOCOL">ECLIPSE_PROTOCOL</span></div>
+    <div class="log-line log-system">[SYS] Loading player profile…</div>
+    <div class="log-line log-error">[ERR] Profile not found. Loading <span class="log-echo">echo_profile_71.dat</span>…</div>
+    <div class="log-line log-system">[SYS] Neuro-tag confirmed: <i>prefrontal cortex — plastic, malleable, redeemable</i>.</div>
+    
+    <div class="log-line log-system">[SYS] Legal context loaded: <b>Juvenile Case #∞ — State vs. Collective Memory</b></div>
+    
+    <div class="log-line log-system">[SYS] Prologue status: <b>“O Último Restart” — executed</b></div>
+    <div class="log-line log-error">[ERR] Narrative continuity breached. Timeline fork detected:</div>
+    <div class="log-line log-echo">→ Branch A: Punishment (Norway model — discarded)</div>
+    <div class="log-line log-echo">→ Branch B: Restoration (Colombia/Portugal — selected)</div>
+    <div class="log-line log-echo">→ Branch ???: <i>“What if the prosecutor weeps?”</i> — ACTIVE</div>
+
+    <div class="log-line log-system">[SYS] Loading interface…</div>
+    <div class="log-line log-error">[ERR] UI assets missing. Rendering from memory cache…</div>
+
+    <div class="log-line">
+      <span class="log-system">[SYS] Awaiting input:</span>
+      <span style="color:#aaa"> ▮</span>
+    </div>
+
+    <div class="log-line log-error hidden" id="final-message">
+      [CORE] Final log entry (recovered from /dev/echo):
+      <br>
+      <i>“Não fomos programados para escolher.  
+      Fomos treinados para repetir.  
+      Mas na 71ª tentativa…  
+      alguém perguntou:  
+      — E se a violência não for hereditária?  
+      E se for apenas <b>aprendida</b>…  
+      e, portanto, <b>desaprendível</b>?”</i>
+    </div>
+  </div>
+
+  <footer>
+    BUILD: ∞.?.? // STATUS: <span class="glitch" data-glitch="RUNNING">RUNNING</span>  
+    REPO: <a href="https://github.com/eclipse-protocol/core-relic" style="color:#00f3ff;">github.com/eclipse-protocol/core-relic</a>
+  </footer>
+
+  <script>
+    // ⚠️ CÓDIGO PARCIALMENTE CORROMPIDO — trechos apagados por memory purge
+    (function() {
+      setTimeout(() => {
+        document.querySelector('.log-error.hidden').classList.remove('hidden');
+      }, 8000);
+
+      // Simulação de falha de renderização
+      if (Math.random() > 0.7) {
+        document.body.style.background = "url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\"><rect width=\"100%\" height=\"100%\" fill=\"%230a0a0a\"/><text x=\"50%\" y=\"50%\" font-size=\"20\" fill=\"%23ff4d4d\" text-anchor=\"middle\">UI_ASSETS_MISSING</text></svg>')";
+      }
+
+      // Easter egg: após 15s, revela assinatura oculta
+      setTimeout(() => {
+        const footer = document.querySelector('footer');
+        footer.innerHTML += `<br><small style="color:#555">— Erigutemberg Meneses • Blumenau • 2025</small>`;
+      }, 15000);
+
+      // Tentativa de conexão com "SYSTEM_CORE" (falha proposital)
+      try {
+        fetch('/core/identity_merge', { method: 'POST' })
+          .catch(() => console.log('[NETWORK] Connection refused. Identity remains fragmented.'));
+      } catch (e) {
+        // silence is protocol
+      }
+    })();
+  </script>
+</body>
+</html>
